@@ -1,4 +1,7 @@
 
+# 🚀 How to Start the App (Expo)
+
+
 
 This is a React Native app built with **Expo** for booking travel services such as flights and hotels.
 
@@ -26,11 +29,11 @@ npm start
 
 ##
 
-<img src="readme-images/photo_5397705831945991097_y.jpg.jpg" alt="Screenshot" />
+<img src="readme-images/photo_5397705831945991097_y.jpg" alt="Screenshot" />
 
 ##
 
-<img src="readme-images/pphoto_5397705831945991098_y.jpg" alt="Screenshot" />
+<img src="readme-images/photo_5397705831945991098_y.jpg" alt="Screenshot" />
 
 ##
 
