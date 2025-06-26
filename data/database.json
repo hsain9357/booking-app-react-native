@@ -1,0 +1,583 @@
+{
+  "destinations": [
+    {
+      "id": "1",
+      "name": "Santorini, Greece",
+      "image": "https://api.a0.dev/assets/image?text=Beautiful%20Santorini%20Greece%20with%20white%20buildings%20and%20blue%20domes&aspect=16:9&seed=123",
+      "rating": 4.9,
+      "price": 299,
+      "type": "Island",
+      "description": "Experience the magic of Santorini with its iconic white-washed buildings, blue-domed churches, and breathtaking sunsets over the Aegean Sea. This volcanic island offers dramatic views, black sand beaches, and world-class dining.",
+      "activities": ["Wine Tasting", "Sailing", "Volcano Tour", "Beach Relaxation", "Sunset Watching"],
+      "amenities": ["Free WiFi", "Swimming Pool", "Airport Shuttle", "Restaurant", "Bar"],
+      "location": {
+        "latitude": 36.3932,
+        "longitude": 25.4615
+      },
+      "gallery": [
+        "https://api.a0.dev/assets/image?text=Santorini%20sunset%20over%20caldera%20with%20white%20buildings&aspect=16:9&seed=1231",
+        "https://api.a0.dev/assets/image?text=Santorini%20blue%20dome%20church%20with%20sea%20view&aspect=16:9&seed=1232",
+        "https://api.a0.dev/assets/image?text=Santorini%20infinity%20pool%20with%20caldera%20view&aspect=16:9&seed=1233",
+        "https://api.a0.dev/assets/image?text=Santorini%20black%20sand%20beach%20with%20umbrellas&aspect=16:9&seed=1234"
+      ],
+      "reviews": [
+        {
+          "id": "r1",
+          "user": "Emma W.",
+          "avatar": "https://api.a0.dev/assets/image?text=Woman%20with%20blonde%20hair%20smiling&aspect=1:1&seed=u1",
+          "rating": 5,
+          "comment": "The most beautiful place I've ever visited! The views are absolutely breathtaking and the local food is amazing.",
+          "date": "2025-05-15"
+        },
+        {
+          "id": "r2",
+          "user": "Michael T.",
+          "avatar": "https://api.a0.dev/assets/image?text=Man%20with%20beard%20and%20glasses&aspect=1:1&seed=u2",
+          "rating": 4.8,
+          "comment": "Incredible experience. The sunset views are unmatched. A bit crowded during peak season but still worth it.",
+          "date": "2025-04-22"
+        },
+        {
+          "id": "r3",
+          "user": "Sophia L.",
+          "avatar": "https://api.a0.dev/assets/image?text=Woman%20with%20brown%20hair%20casual&aspect=1:1&seed=u3",
+          "rating": 5,
+          "comment": "Absolutely magical! The white buildings against the blue sea create a perfect backdrop for unforgettable memories.",
+          "date": "2025-03-10"
+        }
+      ],
+      "favorited": false
+    },
+    {
+      "id": "2",
+      "name": "Bali, Indonesia",
+      "image": "https://api.a0.dev/assets/image?text=Tropical%20Bali%20beach%20with%20palm%20trees%20and%20clear%20water&aspect=16:9&seed=456",
+      "rating": 4.8,
+      "price": 199,
+      "type": "Beach",
+      "description": "Discover the island of the gods with its lush landscapes, vibrant culture, and pristine beaches. Bali offers a perfect blend of relaxation, adventure, and spiritual experiences with its ancient temples, rice terraces, and world-class surfing.",
+      "activities": ["Surfing", "Temple Visits", "Rice Terrace Trekking", "Spa Treatments", "Yoga Retreats"],
+      "amenities": ["Free WiFi", "Swimming Pool", "Spa", "Restaurant", "Beach Access"],
+      "location": {
+        "latitude": -8.4095,
+        "longitude": 115.1889
+      },
+      "gallery": [
+        "https://api.a0.dev/assets/image?text=Bali%20rice%20terraces%20with%20palm%20trees%20and%20sunset&aspect=16:9&seed=4561",
+        "https://api.a0.dev/assets/image?text=Bali%20temple%20with%20traditional%20architecture%20and%20water&aspect=16:9&seed=4562",
+        "https://api.a0.dev/assets/image?text=Bali%20luxury%20villa%20with%20private%20pool%20and%20tropical%20garden&aspect=16:9&seed=4563",
+        "https://api.a0.dev/assets/image?text=Bali%20surfing%20beach%20with%20waves%20and%20surfers&aspect=16:9&seed=4564"
+      ],
+      "reviews": [
+        {
+          "id": "r4",
+          "user": "James K.",
+          "avatar": "https://api.a0.dev/assets/image?text=Man%20with%20short%20hair%20casual&aspect=1:1&seed=u4",
+          "rating": 4.9,
+          "comment": "Bali exceeded all my expectations. The people are so friendly and the natural beauty is stunning. Will definitely return!",
+          "date": "2025-05-02"
+        },
+        {
+          "id": "r5",
+          "user": "Olivia P.",
+          "avatar": "https://api.a0.dev/assets/image?text=Woman%20with%20curly%20hair%20smiling&aspect=1:1&seed=u5",
+          "rating": 4.7,
+          "comment": "Perfect mix of relaxation and adventure. The food is incredible and the beaches are pristine.",
+          "date": "2025-04-15"
+        },
+        {
+          "id": "r6",
+          "user": "Daniel M.",
+          "avatar": "https://api.a0.dev/assets/image?text=Man%20with%20dark%20hair%20professional&aspect=1:1&seed=u6",
+          "rating": 4.8,
+          "comment": "The spiritual energy of Bali is something special. Loved the temples and the rice terraces are a must-see.",
+          "date": "2025-03-28"
+        }
+      ],
+      "favorited": false
+    },
+    {
+      "id": "3",
+      "name": "Kyoto, Japan",
+      "image": "https://api.a0.dev/assets/image?text=Traditional%20Japanese%20temple%20in%20Kyoto%20with%20cherry%20blossoms&aspect=16:9&seed=789",
+      "rating": 4.7,
+      "price": 249,
+      "type": "Cultural",
+      "description": "Step back in time in Kyoto, Japan's cultural heart. With over 1,600 Buddhist temples, 400 Shinto shrines, and 17 UNESCO World Heritage sites, Kyoto offers an authentic glimpse into traditional Japanese culture, architecture, and gardens.",
+      "activities": ["Temple Tours", "Tea Ceremonies", "Geisha District Visits", "Bamboo Forest Walks", "Traditional Craft Workshops"],
+      "amenities": ["Free WiFi", "Traditional Onsen", "Japanese Garden", "Tatami Rooms", "Kaiseki Dining"],
+      "location": {
+        "latitude": 35.0116,
+        "longitude": 135.7681
+      },
+      "gallery": [
+        "https://api.a0.dev/assets/image?text=Kyoto%20Fushimi%20Inari%20shrine%20with%20red%20torii%20gates&aspect=16:9&seed=7891",
+        "https://api.a0.dev/assets/image?text=Kyoto%20geisha%20district%20with%20traditional%20buildings%20at%20dusk&aspect=16:9&seed=7892",
+        "https://api.a0.dev/assets/image?text=Kyoto%20bamboo%20forest%20with%20sunlight%20and%20path&aspect=16:9&seed=7893",
+        "https://api.a0.dev/assets/image?text=Kyoto%20traditional%20ryokan%20with%20tatami%20room%20and%20garden%20view&aspect=16:9&seed=7894"
+      ],
+      "reviews": [
+        {
+          "id": "r7",
+          "user": "Robert C.",
+          "avatar": "https://api.a0.dev/assets/image?text=Man%20with%20glasses%20professional&aspect=1:1&seed=u7",
+          "rating": 4.8,
+          "comment": "Kyoto is like stepping into another world. The temples and shrines are incredibly peaceful and beautiful.",
+          "date": "2025-05-10"
+        },
+        {
+          "id": "r8",
+          "user": "Ava H.",
+          "avatar": "https://api.a0.dev/assets/image?text=Woman%20with%20black%20hair%20professional&aspect=1:1&seed=u8",
+          "rating": 4.6,
+          "comment": "The cherry blossom season is magical. Loved the traditional ryokan experience and the tea ceremonies.",
+          "date": "2025-04-05"
+        },
+        {
+          "id": "r9",
+          "user": "William J.",
+          "avatar": "https://api.a0.dev/assets/image?text=Man%20with%20brown%20hair%20casual&aspect=1:1&seed=u9",
+          "rating": 4.7,
+          "comment": "A perfect blend of history and modern convenience. The food is exceptional and the gardens are serene.",
+          "date": "2025-03-22"
+        }
+      ],
+      "favorited": false
+    },
+    {
+      "id": "4",
+      "name": "Paris, France",
+      "image": "https://api.a0.dev/assets/image?text=Eiffel%20Tower%20Paris%20with%20city%20view&aspect=1:1&seed=101",
+      "rating": 4.6,
+      "price": 279,
+      "type": "City",
+      "description": "Experience the romance and charm of the City of Light. Paris captivates visitors with its iconic landmarks, world-class museums, exquisite cuisine, and elegant boulevards. From the Eiffel Tower to the Louvre, every corner offers a new discovery.",
+      "activities": ["Museum Tours", "Seine River Cruise", "Wine Tasting", "Culinary Experiences", "Shopping"],
+      "amenities": ["Free WiFi", "Breakfast", "Concierge Service", "Metro Access", "Rooftop Views"],
+      "location": {
+        "latitude": 48.8566,
+        "longitude": 2.3522
+      },
+      "gallery": [
+        "https://api.a0.dev/assets/image?text=Paris%20Louvre%20museum%20with%20glass%20pyramid%20at%20sunset&aspect=16:9&seed=1011",
+        "https://api.a0.dev/assets/image?text=Paris%20Seine%20river%20with%20Notre%20Dame%20cathedral&aspect=16:9&seed=1012",
+        "https://api.a0.dev/assets/image?text=Paris%20cafe%20with%20outdoor%20seating%20and%20Eiffel%20Tower%20view&aspect=16:9&seed=1013",
+        "https://api.a0.dev/assets/image?text=Paris%20Arc%20de%20Triomphe%20with%20Champs%20Elysees&aspect=16:9&seed=1014"
+      ],
+      "reviews": [
+        {
+          "id": "r10",
+          "user": "Charlotte B.",
+          "avatar": "https://api.a0.dev/assets/image?text=Woman%20with%20red%20hair%20smiling&aspect=1:1&seed=u10",
+          "rating": 4.7,
+          "comment": "Paris is truly magical. The architecture, the food, the atmosphere - everything is perfect for a romantic getaway.",
+          "date": "2025-05-18"
+        },
+        {
+          "id": "r11",
+          "user": "Henry G.",
+          "avatar": "https://api.a0.dev/assets/image?text=Man%20with%20blonde%20hair%20casual&aspect=1:1&seed=u11",
+          "rating": 4.5,
+          "comment": "The museums are world-class and the pastries are to die for. A bit crowded but worth it.",
+          "date": "2025-04-12"
+        },
+        {
+          "id": "r12",
+          "user": "Isabella R.",
+          "avatar": "https://api.a0.dev/assets/image?text=Woman%20with%20brown%20hair%20professional&aspect=1:1&seed=u12",
+          "rating": 4.6,
+          "comment": "Walking along the Seine at sunset is an experience I'll never forget. The city has such a special energy.",
+          "date": "2025-03-05"
+        }
+      ],
+      "favorited": false
+    },
+    {
+      "id": "5",
+      "name": "New York, USA",
+      "image": "https://api.a0.dev/assets/image?text=New%20York%20City%20skyline%20with%20Central%20Park&aspect=1:1&seed=102",
+      "rating": 4.5,
+      "price": 329,
+      "type": "City",
+      "description": "Dive into the energy of the city that never sleeps. New York offers world-famous attractions, diverse neighborhoods, cutting-edge art and culture, and a culinary scene that represents cuisines from around the globe.",
+      "activities": ["Broadway Shows", "Museum Visits", "Central Park Exploration", "Shopping", "Food Tours"],
+      "amenities": ["Free WiFi", "Fitness Center", "Business Center", "Restaurant", "Subway Access"],
+      "location": {
+        "latitude": 40.7128,
+        "longitude": -74.0060
+      },
+      "gallery": [
+        "https://api.a0.dev/assets/image?text=New%20York%20Times%20Square%20with%20bright%20lights%20and%20billboards%20at%20night&aspect=16:9&seed=1021",
+        "https://api.a0.dev/assets/image?text=New%20York%20Brooklyn%20Bridge%20with%20Manhattan%20skyline&aspect=16:9&seed=1022",
+        "https://api.a0.dev/assets/image?text=New%20York%20Central%20Park%20in%20autumn%20with%20colorful%20trees&aspect=16:9&seed=1023",
+        "https://api.a0.dev/assets/image?text=New%20York%20luxury%20hotel%20room%20with%20city%20view&aspect=16:9&seed=1024"
+      ],
+      "reviews": [
+        {
+          "id": "r13",
+          "user": "Noah P.",
+          "avatar": "https://api.a0.dev/assets/image?text=Man%20with%20dark%20hair%20casual&aspect=1:1&seed=u13",
+          "rating": 4.6,
+          "comment": "The energy of NYC is unmatched. So much to see and do - a week wasn't enough!",
+          "date": "2025-05-08"
+        },
+        {
+          "id": "r14",
+          "user": "Mia S.",
+          "avatar": "https://api.a0.dev/assets/image?text=Woman%20with%20blonde%20hair%20professional&aspect=1:1&seed=u14",
+          "rating": 4.4,
+          "comment": "Great food, amazing museums, and the skyline views are incredible. A bit hectic but that's part of the charm.",
+          "date": "2025-04-20"
+        },
+        {
+          "id": "r15",
+          "user": "Ethan D.",
+          "avatar": "https://api.a0.dev/assets/image?text=Man%20with%20glasses%20casual&aspect=1:1&seed=u15",
+          "rating": 4.5,
+          "comment": "Broadway shows are a must-see and Central Park is an oasis in the middle of the urban jungle.",
+          "date": "2025-03-15"
+        }
+      ],
+      "favorited": false
+    },
+    {
+      "id": "6",
+      "name": "Rome, Italy",
+      "image": "https://api.a0.dev/assets/image?text=Colosseum%20in%20Rome%20Italy%20ancient%20architecture&aspect=1:1&seed=103",
+      "rating": 4.7,
+      "price": 259,
+      "type": "Cultural",
+      "description": "Walk through thousands of years of history in the Eternal City. Rome offers an unparalleled blend of ancient ruins, artistic masterpieces, charming piazzas, and world-renowned cuisine that will captivate all your senses.",
+      "activities": ["Ancient Ruins Tours", "Vatican Visit", "Food Tours", "Fountain Hopping", "Shopping"],
+      "amenities": ["Free WiFi", "Breakfast", "Rooftop Terrace", "Airport Transfer", "Walking Tours"],
+      "location": {
+        "latitude": 41.9028,
+        "longitude": 12.4964
+      },
+      "gallery": [
+        "https://api.a0.dev/assets/image?text=Rome%20Vatican%20with%20St%20Peters%20Basilica%20and%20square&aspect=16:9&seed=1031",
+        "https://api.a0.dev/assets/image?text=Rome%20Trevi%20Fountain%20with%20tourists%20and%20water&aspect=16:9&seed=1032",
+        "https://api.a0.dev/assets/image?text=Rome%20traditional%20Italian%20restaurant%20with%20outdoor%20seating&aspect=16:9&seed=1033",
+        "https://api.a0.dev/assets/image?text=Rome%20luxury%20hotel%20room%20with%20ancient%20city%20view&aspect=16:9&seed=1034"
+      ],
+      "reviews": [
+        {
+          "id": "r16",
+          "user": "Amelia F.",
+          "avatar": "https://api.a0.dev/assets/image?text=Woman%20with%20black%20hair%20casual&aspect=1:1&seed=u16",
+          "rating": 4.8,
+          "comment": "Rome is like an open-air museum. The history is incredible and the food is divine.",
+          "date": "2025-05-22"
+        },
+        {
+          "id": "r17",
+          "user": "Benjamin L.",
+          "avatar": "https://api.a0.dev/assets/image?text=Man%20with%20beard%20casual&aspect=1:1&seed=u17",
+          "rating": 4.6,
+          "comment": "The ancient ruins are breathtaking. Make sure to try the local pasta dishes and gelato!",
+          "date": "2025-04-10"
+        },
+        {
+          "id": "r18",
+          "user": "Harper W.",
+          "avatar": "https://api.a0.dev/assets/image?text=Woman%20with%20brown%20hair%20smiling&aspect=1:1&seed=u18",
+          "rating": 4.7,
+          "comment": "Walking through the Roman Forum was like traveling back in time. The Vatican museums are a must-see.",
+          "date": "2025-03-18"
+        }
+      ],
+      "favorited": false
+    },
+    {
+      "id": "7",
+      "name": "Dubai, UAE",
+      "image": "https://api.a0.dev/assets/image?text=Dubai%20skyline%20with%20Burj%20Khalifa%20and%20modern%20buildings&aspect=1:1&seed=104",
+      "rating": 4.8,
+      "price": 399,
+      "type": "City",
+      "description": "Experience the city of superlatives where traditional culture meets futuristic vision. Dubai offers luxurious shopping, desert adventures, architectural marvels, and pristine beaches all in one dynamic destination.",
+      "activities": ["Desert Safari", "Burj Khalifa Visit", "Luxury Shopping", "Water Parks", "Yacht Tours"],
+      "amenities": ["Free WiFi", "Swimming Pool", "Spa", "Fine Dining", "Beach Access"],
+      "location": {
+        "latitude": 25.2048,
+        "longitude": 55.2708
+      },
+      "gallery": [
+        "https://api.a0.dev/assets/image?text=Dubai%20Palm%20Jumeirah%20aerial%20view%20with%20luxury%20resorts&aspect=16:9&seed=1041",
+        "https://api.a0.dev/assets/image?text=Dubai%20desert%20safari%20with%20sand%20dunes%20and%20sunset&aspect=16:9&seed=1042",
+        "https://api.a0.dev/assets/image?text=Dubai%20Mall%20with%20luxury%20shops%20and%20fountain&aspect=16:9&seed=1043",
+        "https://api.a0.dev/assets/image?text=Dubai%20luxury%20hotel%20suite%20with%20skyline%20view&aspect=16:9&seed=1044"
+      ],
+      "reviews": [
+        {
+          "id": "r19",
+          "user": "Lucas T.",
+          "avatar": "https://api.a0.dev/assets/image?text=Man%20with%20short%20hair%20professional&aspect=1:1&seed=u19",
+          "rating": 4.9,
+          "comment": "Dubai is the definition of luxury. The service is impeccable and the architecture is mind-blowing.",
+          "date": "2025-05-12"
+        },
+        {
+          "id": "r20",
+          "user": "Evelyn M.",
+          "avatar": "https://api.a0.dev/assets/image?text=Woman%20with%20blonde%20hair%20casual&aspect=1:1&seed=u20",
+          "rating": 4.7,
+          "comment": "The contrast between the ultra-modern city and the traditional desert experiences is fascinating.",
+          "date": "2025-04-25"
+        },
+        {
+          "id": "r21",
+          "user": "Alexander K.",
+          "avatar": "https://api.a0.dev/assets/image?text=Man%20with%20dark%20hair%20smiling&aspect=1:1&seed=u21",
+          "rating": 4.8,
+          "comment": "Shopping is incredible and the Burj Khalifa view is unforgettable. Desert safari was the highlight!",
+          "date": "2025-03-30"
+        }
+      ],
+      "favorited": false
+    },
+    {
+      "id": "8",
+      "name": "Maldives",
+      "image": "https://api.a0.dev/assets/image?text=Maldives%20overwater%20bungalows%20with%20crystal%20clear%20blue%20water&aspect=16:9&seed=105",
+      "rating": 4.9,
+      "price": 499,
+      "type": "Island",
+      "description": "Escape to paradise in the Maldives, where pristine white-sand beaches meet crystal-clear turquoise waters. This tropical haven offers overwater bungalows, vibrant coral reefs, and unparalleled luxury in a tranquil island setting.",
+      "activities": ["Snorkeling", "Scuba Diving", "Sunset Cruises", "Spa Treatments", "Island Hopping"],
+      "amenities": ["Free WiFi", "Private Pool", "Direct Ocean Access", "All-Inclusive Options", "Water Sports"],
+      "location": {
+        "latitude": 3.2028,
+        "longitude": 73.2207
+      },
+      "gallery": [
+        "https://api.a0.dev/assets/image?text=Maldives%20underwater%20marine%20life%20with%20colorful%20coral%20and%20fish&aspect=16:9&seed=1051",
+        "https://api.a0.dev/assets/image?text=Maldives%20beach%20dinner%20setup%20with%20candles%20and%20ocean%20view&aspect=16:9&seed=1052",
+        "https://api.a0.dev/assets/image?text=Maldives%20aerial%20view%20of%20island%20resort%20with%20overwater%20villas&aspect=16:9&seed=1053",
+        "https://api.a0.dev/assets/image?text=Maldives%20luxury%20overwater%20bungalow%20interior%20with%20glass%20floor&aspect=16:9&seed=1054"
+      ],
+      "reviews": [
+        {
+          "id": "r22",
+          "user": "Sophia R.",
+          "avatar": "https://api.a0.dev/assets/image?text=Woman%20with%20brown%20hair%20professional&aspect=1:1&seed=u22",
+          "rating": 5,
+          "comment": "Absolute paradise! The water is crystal clear and the overwater bungalow experience is magical.",
+          "date": "2025-05-20"
+        },
+        {
+          "id": "r23",
+          "user": "Jackson B.",
+          "avatar": "https://api.a0.dev/assets/image?text=Man%20with%20blonde%20hair%20casual&aspect=1:1&seed=u23",
+          "rating": 4.8,
+          "comment": "The snorkeling is incredible - saw so many colorful fish and even swam with manta rays!",
+          "date": "2025-04-18"
+        },
+        {
+          "id": "r24",
+          "user": "Victoria N.",
+          "avatar": "https://api.a0.dev/assets/image?text=Woman%20with%20black%20hair%20smiling&aspect=1:1&seed=u24",
+          "rating": 4.9,
+          "comment": "Worth every penny for the privacy and luxury. The staff went above and beyond to make our stay perfect.",
+          "date": "2025-03-25"
+        }
+      ],
+      "favorited": false
+    },
+    {
+      "id": "9",
+      "name": "Barcelona, Spain",
+      "image": "https://api.a0.dev/assets/image?text=Barcelona%20Sagrada%20Familia%20and%20colorful%20architecture&aspect=16:9&seed=106",
+      "rating": 4.7,
+      "price": 229,
+      "type": "City",
+      "description": "Immerse yourself in Barcelona's unique blend of stunning architecture, vibrant street life, and beautiful beaches. From Gaudí's masterpieces to world-class cuisine and lively markets, this Mediterranean gem offers endless discoveries.",
+      "activities": ["Architecture Tours", "Beach Relaxation", "Tapas Crawls", "Art Museums", "Market Visits"],
+      "amenities": ["Free WiFi", "Rooftop Pool", "Breakfast", "Bike Rental", "Metro Access"],
+      "location": {
+        "latitude": 41.3851,
+        "longitude": 2.1734
+      },
+      "gallery": [
+        "https://api.a0.dev/assets/image?text=Barcelona%20Park%20Guell%20with%20colorful%20mosaic%20and%20city%20view&aspect=16:9&seed=1061",
+        "https://api.a0.dev/assets/image?text=Barcelona%20beach%20with%20palm%20trees%20and%20Mediterranean%20sea&aspect=16:9&seed=1062",
+        "https://api.a0.dev/assets/image?text=Barcelona%20tapas%20bar%20with%20traditional%20Spanish%20food&aspect=16:9&seed=1063",
+        "https://api.a0.dev/assets/image?text=Barcelona%20boutique%20hotel%20room%20with%20balcony%20and%20city%20view&aspect=16:9&seed=1064"
+      ],
+      "reviews": [
+        {
+          "id": "r25",
+          "user": "Gabriel C.",
+          "avatar": "https://api.a0.dev/assets/image?text=Man%20with%20beard%20professional&aspect=1:1&seed=u25",
+          "rating": 4.8,
+          "comment": "Barcelona has the perfect mix of culture, architecture, food, and beaches. Sagrada Familia is a must-see!",
+          "date": "2025-05-05"
+        },
+        {
+          "id": "r26",
+          "user": "Lily P.",
+          "avatar": "https://api.a0.dev/assets/image?text=Woman%20with%20red%20hair%20casual&aspect=1:1&seed=u26",
+          "rating": 4.6,
+          "comment": "The tapas are amazing and the Gothic Quarter is so charming to explore. Great city for walking.",
+          "date": "2025-04-08"
+        },
+        {
+          "id": "r27",
+          "user": "Samuel H.",
+          "avatar": "https://api.a0.dev/assets/image?text=Man%20with%20glasses%20smiling&aspect=1:1&seed=u27",
+          "rating": 4.7,
+          "comment": "Gaudí's architecture is mind-blowing and the local markets are full of delicious food and unique finds.",
+          "date": "2025-03-12"
+        }
+      ],
+      "favorited": false
+    },
+    {
+      "id": "10",
+      "name": "Swiss Alps, Switzerland",
+      "image": "https://api.a0.dev/assets/image?text=Swiss%20Alps%20mountains%20with%20snow%20and%20chalets&aspect=16:9&seed=107",
+      "rating": 4.8,
+      "price": 349,
+      "type": "Mountain",
+      "description": "Experience the majestic beauty of the Swiss Alps with breathtaking mountain scenery, world-class skiing, charming villages, and pristine lakes. This alpine paradise offers outdoor adventures and luxurious relaxation in equal measure.",
+      "activities": ["Skiing", "Hiking", "Mountain Biking", "Scenic Train Rides", "Cheese Tasting"],
+      "amenities": ["Free WiFi", "Spa", "Ski-in/Ski-out", "Restaurant", "Fireplace"],
+      "location": {
+        "latitude": 46.8182,
+        "longitude": 8.2275
+      },
+      "gallery": [
+        "https://api.a0.dev/assets/image?text=Swiss%20Alps%20lake%20with%20mountains%20and%20reflection&aspect=16:9&seed=1071",
+        "https://api.a0.dev/assets/image?text=Swiss%20Alps%20ski%20resort%20with%20slopes%20and%20lifts&aspect=16:9&seed=1072",
+        "https://api.a0.dev/assets/image?text=Swiss%20Alps%20traditional%20wooden%20chalet%20with%20mountain%20view&aspect=16:9&seed=1073",
+        "https://api.a0.dev/assets/image?text=Swiss%20Alps%20luxury%20hotel%20room%20with%20panoramic%20mountain%20view&aspect=16:9&seed=1074"
+      ],
+      "reviews": [
+        {
+          "id": "r28",
+          "user": "Zoe A.",
+          "avatar": "https://api.a0.dev/assets/image?text=Woman%20with%20blonde%20hair%20winter%20clothes&aspect=1:1&seed=u28",
+          "rating": 4.9,
+          "comment": "The views are absolutely breathtaking. Best skiing I've ever experienced and the chalets are so cozy.",
+          "date": "2025-05-15"
+        },
+        {
+          "id": "r29",
+          "user": "Thomas D.",
+          "avatar": "https://api.a0.dev/assets/image?text=Man%20with%20dark%20hair%20winter%20clothes&aspect=1:1&seed=u29",
+          "rating": 4.7,
+          "comment": "Summer hiking in the Alps is incredible. The air is so fresh and the mountain lakes are stunning.",
+          "date": "2025-04-22"
+        },
+        {
+          "id": "r30",
+          "user": "Chloe M.",
+          "avatar": "https://api.a0.dev/assets/image?text=Woman%20with%20brown%20hair%20winter%20hat&aspect=1:1&seed=u30",
+          "rating": 4.8,
+          "comment": "The Swiss chocolate and cheese are divine! Perfect after a day on the slopes. The scenery is postcard-perfect.",
+          "date": "2025-03-10"
+        }
+      ],
+      "favorited": false
+    }
+  ],
+  "users": [
+    {
+      "id": "u1",
+      "name": "John Smith",
+      "email": "john.smith@example.com",
+      "avatar": "https://api.a0.dev/assets/image?text=Man%20with%20short%20brown%20hair%20smiling&aspect=1:1&seed=user1"
+    },
+    {
+      "id": "u2",
+      "name": "Sarah Johnson",
+      "email": "sarah.johnson@example.com",
+      "avatar": "https://api.a0.dev/assets/image?text=Woman%20with%20blonde%20hair%20professional&aspect=1:1&seed=user2"
+    },
+    {
+      "id": "u3",
+      "name": "Michael Brown",
+      "email": "michael.brown@example.com",
+      "avatar": "https://api.a0.dev/assets/image?text=Man%20with%20beard%20casual&aspect=1:1&seed=user3"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "b1",
+      "userId": "u1",
+      "destinationId": "1",
+      "checkIn": "2025-07-15",
+      "checkOut": "2025-07-22",
+      "guests": 2,
+      "totalPrice": 2093,
+      "status": "confirmed",
+      "createdAt": "2025-05-10"
+    },
+    {
+      "id": "b2",
+      "userId": "u1",
+      "destinationId": "5",
+      "checkIn": "2025-08-10",
+      "checkOut": "2025-08-15",
+      "guests": 1,
+      "totalPrice": 1645,
+      "status": "confirmed",
+      "createdAt": "2025-05-15"
+    },
+    {
+      "id": "b3",
+      "userId": "u2",
+      "destinationId": "8",
+      "checkIn": "2025-09-05",
+      "checkOut": "2025-09-12",
+      "guests": 2,
+      "totalPrice": 3493,
+      "status": "confirmed",
+      "createdAt": "2025-05-20"
+    },
+    {
+      "id": "b4",
+      "userId": "u3",
+      "destinationId": "3",
+      "checkIn": "2025-07-01",
+      "checkOut": "2025-07-08",
+      "guests": 3,
+      "totalPrice": 1743,
+      "status": "confirmed",
+      "createdAt": "2025-05-05"
+    },
+    {
+      "id": "b5",
+      "userId": "u1",
+      "destinationId": "7",
+      "checkIn": "2025-10-15",
+      "checkOut": "2025-10-20",
+      "guests": 2,
+      "totalPrice": 1995,
+      "status": "pending",
+      "createdAt": "2025-06-01"
+    },
+    {
+      "id": "b6",
+      "userId": "u2",
+      "destinationId": "2",
+      "checkIn": "2025-08-20",
+      "checkOut": "2025-08-27",
+      "guests": 2,
+      "totalPrice": 1393,
+      "status": "completed",
+      "createdAt": "2025-04-15"
+    },
+    {
+      "id": "b7",
+      "userId": "u3",
+      "destinationId": "6",
+      "checkIn": "2025-06-10",
+      "checkOut": "2025-06-15",
+      "guests": 4,
+      "totalPrice": 1295,
+      "status": "cancelled",
+      "createdAt": "2025-03-20"
+    }
+  ]
+}
